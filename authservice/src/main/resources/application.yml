@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name: insta-auth
+
+
+  data:
+    mongodb:
+      database: sharehere-auth
+
+
+server:
+  port: 9000
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+
+
+security:
+  basic:
+    enable: false
